@@ -29,17 +29,12 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
-            <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
-            <p><a href="#blog">Contact me </a></p>
+          <p><Link to="/aboutMe">About me</Link></p>
+          <p><Link to="/contactMe" >Contact me</Link></p>
+          <p><a  href="Dorsa_resume.pdf"download={"Dorsa_resume.pdf"}>Resume</a></p>
+          <p><a href="https://www.linkedin.com/in/dorsa-ajami/">LinkedIn</a></p>
+          <p><a href="https://github.com/dorsaaj">Github page</a></p>
 
-          </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
           </div>
         </div>
         )}

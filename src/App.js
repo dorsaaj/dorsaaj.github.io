@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import AboutMe from './components/about-me /aboutMe';
 import ContactMe from './components/contact-me/contactMe';
+import './App.css';
+
+
 
 const App = () => {
   return (

@@ -35,7 +35,7 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
+    color: #412020;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -49,9 +49,9 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: #c85353;
     background: #FF4820;
-    font-family: var(--font-family);
+    font-family: black;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -79,7 +79,7 @@
     flex-direction: column;
     
     text-align: end;
-    background: var(--color-footer);
+    background: rgb(183,155,201);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -101,6 +101,10 @@
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
+
+    }
+    .gpt3__navbar-menu svg {
+        background-color: #c853c6;
     }
 
     .gpt3__navbar-menu {
@@ -117,6 +121,7 @@
 @media screen and (max-width: 550px) {
     .gpt3__navbar {
         padding: 2rem;
+
     }
 
     .gpt3__navbar-sign {
@@ -125,6 +130,7 @@
 
     .gpt3__navbar-menu_container {
         top: 20px;
+
     }
 
     .gpt3__navbar-menu_container-links-sign {
