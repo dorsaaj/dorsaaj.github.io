@@ -20,6 +20,7 @@
 .item span {
     margin-top: 3rem;
     margin-left : 2rem;
+	font-size: large;
 }
 .item:hover{
 	box-shadow: 
@@ -48,13 +49,6 @@ section{
 	grid-template-columns: repeat(3, calc(3vw + var(--itemWidth)));
 	font-family: 'Averia Serif Libre';
 }
-/* .item:first-of-type{
-	background-image: url(./../../images/p1.jpg);
-} */
-
-/* .item:nth-of-type(2){
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Washington_Post_favicon.png);
-} */
 .item > span {
 	width: 80%;
 	user-select: none; -moz-user-select: none; -webkit-user-select: none;
@@ -65,4 +59,18 @@ h3{
 	height: 80px;
 	width: 90vw;
 	text-align: center;
+}
+@media screen and (max-width:550px) {
+	.item{
+		width: 90px;
+		height: 90px;
+
+	}
+	.item span {
+		margin-top: 1rem;
+		margin-left : 0rem;
+		font-size: x-small;
+	}
+	
+	
 }

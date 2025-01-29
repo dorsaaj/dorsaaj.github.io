@@ -89,6 +89,9 @@
   }
 
   @media screen and (max-width:550px) {
+    .try-container{
+      margin-left: 11rem;
+    }
     .main-image {
       width: 200px; /* Set image width */
       height: 200px; /* Set image height */
@@ -115,7 +118,7 @@
       font-size:xx-small;
       gap:0;
       margin-bottom: 0rem;
-      margin-left: 5rem;
+      margin-left: 10rem;
     }
   
   }

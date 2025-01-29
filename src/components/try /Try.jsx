@@ -6,7 +6,7 @@ const Try = () => {
   const [text, setText] = useState('programming skills');
   const [text1, setText1] = useState('Technologies and Tools');
   const handleMouseEnter1 = () => {
-    setText1('React');
+    setText1('HTML/CSS, React, Angular, Tableau, SQL, Jenkins, Data Structures');
   };
 
   // Event handler for mouse leave
@@ -18,7 +18,7 @@ const Try = () => {
 
   // Event handler for mouse enter
   const handleMouseEnter = () => {
-    setText('Java, JavaScript, Python, C++');
+    setText('Java, JavaScript, Python, C++, C');
   };
 
   // Event handler for mouse leave
