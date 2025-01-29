@@ -1,0 +1,24 @@
+
+.icon-container-contact-me img{
+    height:100px;
+
+}
+.contact-me-content {
+    display: flex; /* Enable flexbox */
+    flex-direction: row; /* Align child elements (icon container and form) horizontally */
+    align-items: center; /* Vertically center the content (icons and form) */
+    margin-left: 7rem;
+    gap:20px
+
+  }
+  
+  .icon-container-contact-me {
+    display: flex; /* Enable flexbox for the icon container */
+    flex-direction: column; /* Stack the icons vertically */
+    align-items: center; /* Optional: Center the icons horizontally within the container */
+    
+  }
+  .contactform {
+    margin-left: 10rem;
+  }
+  

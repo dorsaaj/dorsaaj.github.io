@@ -1,21 +1,124 @@
+/* Style for the image */
 .main-image {
-    width: 300px;
-    height: 300px;
-    border-width: 3;
-    border-color: "red";
-    border-radius: 50%;
-    align-self:'center' ;
-
-}
-.image-container {
+    width: 400px; /* Set image width */
+    height: 400px; /* Set image height */
+    border-width: 3px; /* Add border width */
+    border-color: white; /* Set border color to red */
+    border-style: solid; /* Add border style */
+    align-self: center; /* Center the image within the container */
+  }
+  .header-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    gap:7rem;
     align-items: center;
- }
- .text-box {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 5rem;
-    font-size: 20px;
- }
- 
+    justify-content: center;
+
+  }
+  
+  /* Flexbox for the text container */
+  .elements-container{
+    margin-left: 10rem;
+    display: flex; /* Flexbox to arrange child items */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  /* Styling for text-box (optional) */
+  .text-box {
+    display: flex; /* Flexbox */
+    justify-content: flex-start; /* Align items to the start */
+    padding-left: 5rem; /* Add left padding */
+    font-size: 20px; /* Set font size */
+  }
+  
+  /* General styles for body */
+  body {
+    background-color: #2c2c2c; /* Set background color */
+
+  }
+  
+  /* Text styling */
+  .elements-container h1 {
+    color: white; /* White color for h1 text */
+  }
+  
+  /* Styling for dynamic text inside h2 */
+  .elements-container h2 span {
+    color: White; /* Red color for dynamic text */
+  }
+  .text-container {
+    gap: -2;
+    margin-bottom: 2rem;
+  }
+  .header-container {
+    margin-left: 5rem;
+  }
+  @media screen and (max-width:850px) {
+    .main-image {
+      width: 200px; /* Set image width */
+      height: 200px; /* Set image height */
+    } 
+    .header-container {
+      margin-left: 0rem;
+    }
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:0;
+  
+    }
+    .elements-container{
+      margin-left: 0px;
+      display: flex; /* Flexbox to arrange child items */
+      flex-direction: column; /* Arrange items vertically */
+      justify-content: flex-start; /* Align items at the top */
+      align-items: flex-start; /* Align items to the left */
+    }
+    .text-container {
+      font-size:xx-small;
+      gap:0;
+      margin-bottom: 0rem;
+      margin-left: 13rem;
+    }
+
+
+  }
+
+  @media screen and (max-width:550px) {
+    .main-image {
+      width: 200px; /* Set image width */
+      height: 200px; /* Set image height */
+    } 
+    .header-container {
+      margin-left: 0rem;
+    }
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:0;
+  
+    }
+    .elements-container{
+      margin-left: 0px;
+      display: flex; /* Flexbox to arrange child items */
+      flex-direction: column; /* Arrange items vertically */
+      justify-content: flex-start; /* Align items at the top */
+      align-items: flex-start; /* Align items to the left */
+    }
+    .text-container {
+      font-size:xx-small;
+      gap:0;
+      margin-bottom: 0rem;
+      margin-left: 5rem;
+    }
+  
+  }
+
+
+  

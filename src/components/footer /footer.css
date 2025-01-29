@@ -1,0 +1,12 @@
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
