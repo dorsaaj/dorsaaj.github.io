@@ -19,7 +19,6 @@ const Navbar = () => {
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_container">
           <p><Link  className="a1" to="/">Home</Link></p>
-          <p><Link  className="a1" to="/aboutMe">About me</Link></p>
           <p><Link  className="a1" to="/contactMe" >Contact me</Link></p>
           <p><a  className="a1"href="Dorsa_resume.pdf"download={"Dorsa_resume.pdf"}>Resume</a></p>
           <p><a  className="a1" href="https://www.linkedin.com/in/dorsa-ajami/">LinkedIn</a></p>
@@ -34,7 +33,6 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
           <p><Link className="a2" to="/">Home</Link></p>
-          <p><Link className="a2" to="/aboutMe">About me</Link></p>
           <p><Link className="a2" to="/contactMe" >Contact me</Link></p>
           <p><a  className="a2" href="Dorsa_resume.pdf"download={"Dorsa_resume.pdf"}>Resume</a></p>
           <p><a className="a2" href="https://www.linkedin.com/in/dorsa-ajami/">LinkedIn</a></p>
