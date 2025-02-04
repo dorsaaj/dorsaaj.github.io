@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.474f72de.css",
-    "main.js": "/static/js/main.1682b53d.js",
+    "main.css": "/static/css/main.4180301c.css",
+    "main.js": "/static/js/main.66770659.js",
     "static/media/dorsa.jpg": "/static/media/dorsa.ba09d83c07030b9edb8a.jpg",
     "index.html": "/index.html",
-    "main.474f72de.css.map": "/static/css/main.474f72de.css.map",
-    "main.1682b53d.js.map": "/static/js/main.1682b53d.js.map"
+    "main.4180301c.css.map": "/static/css/main.4180301c.css.map",
+    "main.66770659.js.map": "/static/js/main.66770659.js.map"
   },
   "entrypoints": [
-    "static/css/main.474f72de.css",
-    "static/js/main.1682b53d.js"
+    "static/css/main.4180301c.css",
+    "static/js/main.66770659.js"
   ]
 }
