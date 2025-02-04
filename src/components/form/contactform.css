@@ -6,7 +6,6 @@
     width: 300px;  /* Increased width for better spacing */
     padding: 20px; /* Added padding for internal spacing */
     color: white;
-    gap: 15px; /* Added more gap between elements */
 }
 
 .contactform h2 {
@@ -37,7 +36,9 @@
 .contactform button {
     padding: 0.8rem 1.5rem;
     font-size: 16px;
+    margin-top: 1rem;
     background-color: #FF4820;
+    margin-left: 2rem;
     color: white;
     border: none;
     border-radius: 5px;

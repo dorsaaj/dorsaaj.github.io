@@ -11,11 +11,6 @@ const ContactMe = () => {
   return (
     <div>
       <div className="contact-me-content">
-        <div className="icon-container-contact-me">
-          <img src={email} alt = "email"/>
-          <a href="https://www.linkedin.com/in/dorsa-ajami/"><img src={linkdin} alt = "linkdin"/></a>
-          <a href="https://github.com/dorsaaj"><img src={github} alt = "github"/></a>
-        </div>
         <div className='contactform'><ContactForm/></div>
       </div>
 
