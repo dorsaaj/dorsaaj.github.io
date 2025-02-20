@@ -25,7 +25,7 @@ const ContactForm = () => {
     
     try {
       // Send POST request to FastAPI backend
-      const response = await fetch('backenddorsaajio-production.up.railway.app/contact', {
+      const response = await fetch('dorsaajbacked.com/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
