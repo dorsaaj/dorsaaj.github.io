@@ -45,5 +45,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "proxy": "https://backenddorsaajio-production.up.railway.app"
 }
+
