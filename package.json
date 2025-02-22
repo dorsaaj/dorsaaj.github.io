@@ -2,7 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dorsaaj.github.io/",
+  "homepage": ".",
   "dependencies": {
     "@react-three/fiber": "^8.17.12",
     "cra-template": "1.2.0",
